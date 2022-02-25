@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "san-mv/laravel-subscriptions",
+    "description": "This is my package laravel-subscriptions",
     "keywords": [
-        ":vendor_name",
+        "san-mv",
         "laravel",
-        ":package_slug"
+        "laravel-subscriptions"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/san-mv/laravel-subscriptions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Naif Mohamed",
+            "email": "naif@san.mv",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "SANMV\\Subscriptions\\": "src",
+            "SANMV\\Subscriptions\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "SANMV\\Subscriptions\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "SANMV\\Subscriptions\\SubscriptionsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Subscriptions": "SANMV\\Subscriptions\\Facades\\Subscriptions"
             }
         }
     },
