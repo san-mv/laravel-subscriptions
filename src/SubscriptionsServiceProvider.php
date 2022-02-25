@@ -2,9 +2,9 @@
 
 namespace SANMV\Subscriptions;
 
+use SANMV\Subscriptions\Commands\SubscriptionsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use SANMV\Subscriptions\Commands\SubscriptionsCommand;
 
 class SubscriptionsServiceProvider extends PackageServiceProvider
 {
